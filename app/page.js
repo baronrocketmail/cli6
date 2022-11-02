@@ -3,7 +3,7 @@ import React from "react";
 
 //
 async function getName(){
-    const info = await fetch("https://18572cullcanyon/api/name", { next: { revalidate: 10 } })
+    const info = await fetch("https://18572cullcanyon.com/api/name", { next: { revalidate: 10 } })
     return info.json()
 }
 
