@@ -4,8 +4,6 @@
     width: 650px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 html{
@@ -14,8 +12,7 @@ html{
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
-    background-color: rgb(18,18,18);
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -27,7 +24,7 @@ a:hover{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 80px;
     letter-spacing: -.005em;
     position: static;
