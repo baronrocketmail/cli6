@@ -3,17 +3,17 @@ import React from "react";
 
 //
 async function getName(){
-    const info = await fetch("https://server-neon-tau.vercel.app/api/name", { next: { revalidate: 10 } })
+    const info = await fetch("https://18572cullcanyon/api/name", { next: { revalidate: 10 } })
     return info.json()
 }
 
 async function getApplicationsOpen(){
-    const applicationsOpen = await fetch("https://server-neon-tau.vercel.app/api/applicationsOpen" , { next: { revalidate: 10 } })
+    const applicationsOpen = await fetch("https://18572cullcanyon.com/api/applicationsOpen" , { next: { revalidate: 10 } })
     return applicationsOpen.json()
 }
 
 async function getUnpaid(){
-    const unpaid = await fetch("https://server-neon-tau.vercel.app/api/unpaid", { next: { revalidate: 10 } })
+    const unpaid = await fetch("https://18572cullcanyon.com/api/unpaid", { next: { revalidate: 10 } })
     return unpaid.json()
 }
 
