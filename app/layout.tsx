@@ -4,6 +4,7 @@ import { Roboto } from '@next/font/google';
 
 const roboto = Roboto({
     weight: '300',
+    subsets: ["latin"]
     // You can also pass an array for multiple font weights, e.g. ['400', '600'].
 });
 
